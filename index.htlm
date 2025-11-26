@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI ChatLab — Mikkel's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .project-card h3 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI ChatLab</h1>
+    <p>Modular, scalable chatbots and AI tools — built with care by Mikkel</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I'm an aspiring AI engineer and engineering student based in Denmark. I specialize in building intelligent chatbots and conversational tools with a focus on modular design, scalability, and user-friendly experiences. This site showcases my freelance work and personal projects.
+    </p>
+  </section>
+
+  <section>
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>StudyBot</h3>
+        <p>A multilingual chatbot designed to help students learn through conversation. Built with localization and modular architecture.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Raven Recovery Assistant</h3>
+        <p>A wellbeing-focused chatbot that supports users in recovery and personal growth. Designed with empathy and user safety in mind.</p>
+        <a href="#">Live Demo</a>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Interested in working together or learning more? Reach out via <a href="mailto:your.email@example.com">email</a> or connect on <a href="https://github.com/mikkeltdk-del">GitHub</a>.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Mikkel T. — AI ChatLab
+  </footer>
+</body>
+</html>
