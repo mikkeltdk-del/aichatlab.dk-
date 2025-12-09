@@ -293,7 +293,7 @@ export default function Chatbot({ isOpen: externalIsOpen, onToggle, showPulse }:
             <div className={`absolute inset-0 bg-black rounded-full blur-xl opacity-20 group-hover:opacity-35 transition-opacity duration-300 ${showPulse ? 'animate-pulse' : ''}`}></div>
             <div className={`relative w-20 h-20 bg-white rounded-full flex items-center justify-center border-2 border-[var(--border-color)] shadow-lg hover:scale-110 transition-transform duration-300 ${showPulse ? 'animate-pulse' : ''}`}>
               <Image 
-                src="/new-logo.png" 
+                src="/New-logo.png" 
                 alt="Chat" 
                 width={50} 
                 height={50}
@@ -316,7 +316,7 @@ export default function Chatbot({ isOpen: externalIsOpen, onToggle, showPulse }:
                   <div className="relative">
                     <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center border-2 border-[var(--border-color)] shadow-sm">
                       <Image 
-                        src="/new-logo.png" 
+                        src="/New-logo.png" 
                         alt="Bot" 
                         width={24} 
                         height={24}
@@ -365,7 +365,7 @@ export default function Chatbot({ isOpen: externalIsOpen, onToggle, showPulse }:
                     <div className="mr-3 mt-1">
                       <div className="w-7 h-7 bg-white rounded-full flex items-center justify-center border-2 border-[var(--border-color)] shadow-sm">
                         <Image 
-                          src="/new-logo.png" 
+                          src="/New-logo.png" 
                           alt="Bot" 
                           width={16} 
                           height={16}
@@ -412,7 +412,7 @@ export default function Chatbot({ isOpen: externalIsOpen, onToggle, showPulse }:
                   <div className="mr-3 mt-1">
                     <div className="w-7 h-7 bg-white rounded-full flex items-center justify-center border-2 border-[var(--border-color)] shadow-sm">
                       <Image 
-                        src="/new-logo.png" 
+                        src="/New-logo.png" 
                         alt="Bot" 
                         width={16} 
                         height={16}
