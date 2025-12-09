@@ -55,7 +55,7 @@ export default function RootLayout({
               <div>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="relative w-8 h-8">
-                    <Image src="/new-logo.png" alt="AI Chat Lab" fill className="object-contain" />
+                    <Image src="/New-logo.png" alt="AI Chat Lab" fill className="object-contain" />
                   </div>
                   <span className="font-bold text-lg text-[var(--text-primary)]">AI Chat Lab</span>
                 </div>
@@ -95,7 +95,7 @@ export default function RootLayout({
                     className="relative w-14 h-14 hover:opacity-80 transition-opacity flex items-center justify-center"
                   >
                     <Image 
-                      src="/linkedin.png" 
+                      src="/Linkedin.png" 
                       alt="LinkedIn" 
                       fill 
                       className="object-contain"
